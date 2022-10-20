@@ -1,5 +1,0 @@
-"y": {
-    "aggregate": "count",
-    "type": "quantitative",
-    "axis": {"tickCount": 3, "grid": false}
-  }
