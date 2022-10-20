@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "../Data/clean.csv"
+    "url": "https://raw.githubusercontent.com/PeterG256/Visualisation2/main/Data/clean.csv"
   },
   "config": {
     "style": {
