@@ -1,0 +1,151 @@
+Year: The year of the eruption.
+
+Month: Valid values: 1 to 12. The Date and Time are given in Universal Coordinated Time (also known as Greenwich Mean Time). The local date may be one day different.
+
+Day: Valid values: 1 to 31. The Date and Time are given in Universal Coordinated Time (also known as Greenwich Mean Time). The local date may be one day different.
+
+Tsu: A value would indicate that the volcano caused a tsunami.
+
+Eq: A value would indicate that there was a significant earthquake in conjunction with the volcanic eruption.
+
+Name: The name of the volcano as listed by the Smithsonian Institution, Global Volcanism Program (see [1]).
+
+Location: The volcanic subregion (geographic location) as identified by the Smithsonian Institution, Global Volcanism Program.
+
+Country: The Country where the volcano is located.
+
+Latitude: Valid values: -90 to 90. Latitude: 0 to 90 (Northern Hemisphere) -90 to 0 (Southern Hemisphere). Events prior to 1900 were not instrumentally located, therefore, the location given is based on the latitude and longitude of the city where the maximum effects occurred.
+
+Longitude: Valid values: -180 to 180. Longitude: 0 to 180 (Eastern Hemisphere) -180 to 0 (Western Hemisphere). Events prior to 1900 were not instrumentally located, therefore, the location given is based on the latitude and longitude of the city where the maximum effects occurred.
+
+Elevation (m): The elevation of a volcano in meters (m) above sealevel.
+
+Type: The volcano type as listed by the Smithsonian Institution, Global Volcanism Program (see [1]).
+
+VEI: A widely used classification scheme to describe the size of explosive eruptions. It is based principally on the erupted mass or volume of a deposit Newhall and Self, 1982. Historic eruptions that were definitely explosive, but carry no other descriptive information are assigned a default VEI of 2.
+
+Agent: The agent that caused the fatalities for an eruption. Adapted from Siebert and Simkin, 1994 [2].
+Code	Agent
+A	Avalanche (Debris and landslides)
+E	Electrical (lightning)
+F	Floods (& Jökulhlaups)
+G	Gas (emission from eruptive craters as well as fumarolic/solfataric activity)
+I	Indirect deaths (disease, starvation, exposure, desolation)
+L	Lava flows
+M	Mudflows/Lahars
+m	Secondary (post-eruption) mudflows
+P	Pyroclastic flows, surges, & direct blasts
+S	Seismic, or volcanic earthquake (tectonic earthquake deaths excluded)
+T	Tephra (ash, bombs, lapilli, steam blasts). Killing either by ballistic impact, or with finer-grained ash, by suffocation, collapse of ash-covered roofs, etc.
+W	Waves or tsunami
+
+Deaths: Whenever possible, numbers of deaths are listed.
+
+Death Description: Valid values: 0 to 4. When a description was found in the historical literature instead of an actual number of deaths, this value was coded and listed in the Deaths column. If the actual number of deaths was listed, a descriptor was also added for search purposes.
+0	None
+1	Few (~1 to 50 deaths)
+2	Some (~51 to 100 deaths)
+3	Many (~101 to 1000 deaths)
+4	Very many (over 1000 deaths)
+
+Missing: Whenever possible, numbers of missing are listed.
+
+Missing Description: Valid values: 0 to 4.
+When a description was found in the historical literature instead of an actual number of missing, this value was coded and listed in the Missing column. If the actual number of missing was listed, a descriptor was also added for search purposes.
+0	None
+1	Few (~1 to 50 missing)
+2	Some(~51 to 100 missing)
+3	Many (~101 to 1000 missing)
+4	Very Many (~1001 or more missing)
+
+Injuries: Whenever possible, numbers of injuries from the eruption are listed.
+
+Injuries Description: Valid values: 0 to 4.
+When a description was found in the historical literature instead of an actual number of injuries, this value was coded and listed in the Injuries column. If the actual number of injuries was listed, a descriptor was also added for search purposes.
+0	None
+1	Few (~1 to 50 injuries)
+2	Some(~51 to 100 injuries)
+3	Many (~101 to 1000 injuries)
+4	Very many (over 1000 injuries)
+
+Damage ($Mil): The value in the Damage column should be multiplied by 1,000,000 to obtain the actual dollar amount.
+When a dollar amount for damage was found in the literature, it was listed in the Damage column in millions of U.S. dollars. The dollar value listed is the value at the time of the event. To convert the damage to current dollar values, please use the Consumer Price Index Calculator. Monetary conversion tables for the time of the event were used to convert foreign currency to U.S. dollars.
+
+Damage Description: Valid values: 0 to 4.
+For those events not offering a monetary evaluation of damage, the following five-level scale was used to classify damage (1990 dollars) and was listed in the Damage column. If the actual dollar amount of damage was listed, a descriptor was also added for search purposes.
+0	NONE
+1	LIMITED (roughly corresponding to less than $1 million)
+2	MODERATE (~$1 to $5 million)
+3	SEVERE (~$5 to $25 million)
+4	EXTREME (~$25 million or more)
+When possible, a rough estimate was made of the dollar amount of damage based upon the description provided, in order to choose the damage category. In many cases, only a single descriptive term was available. These terms were converted to the damage categories based upon the authors apparent use of the term elsewhere. In the absence of other information, LIMITED is considered synonymous with slight, minor, and light, SEVERE as synonymous with major, extensive, and heavy, and EXTREME as synonymous with catastrophic.
+Note: The descriptive terms relate approximately to current dollar values.
+
+Houses Destroyed: Whenever possible, numbers of houses destroyed are listed.
+
+Houses Destroyed Description: Valid values: 0 to 4.
+For those events not offering an exact number of houses damaged, the following four-level scale was used to classify the damage and was listed in the Houses Destroyed column. If the actual number of houses destroyed was listed, a descriptor was also added for search purposes.
+0	None
+1	Few (~1 to 50 houses)
+2	Some (~51 to 100 houses)
+3	Many (101 to 1000 houses)
+4	Very Many (~over 1000 houses)
+
+Total Deaths: Whenever possible, total number of deaths from the eruption and secondary effects are listed.
+
+Total Death Description: Valid values: 0 to 4.
+When a description was found in the historical literature instead of an actual number of deaths, this value was coded and listed in the Deaths column. If the actual number of deaths was listed, a descriptor was also added for search purposes.
+0	None
+1	Few (~1 to 50 deaths)
+2	Some (~51 to 100 deaths)
+3	Many (~101 to 1000 deaths)
+4	Very many (over 1000 deaths)
+
+Total Missing: Whenever possible, total number of missing from the eruption and secondary effects are listed.
+
+Total Missing Description: Valid values: 0 to 4.
+When a description was found in the historical literature instead of an actual number of missing, this value was coded and listed in the Missing column. If the actual number of missing was listed, a descriptor was also added for search purposes.
+0	None
+1	Few (~1 to 50 missing)
+2	Some(~51 to 100 missing)
+3	Many (~101 to 1000 missing)
+4	Very Many (~1001 or more missing)
+
+Total Injuries: Whenever possible, total number of injuries from the eruption and secondary effects are listed.
+
+Total Injuries Description: Valid values: 0 to 4.
+When a description was found in the historical literature instead of an actual number of injuries, this value was coded and listed in the Injuries column. If the actual number of injuries was listed, a descriptor was also added for search purposes.
+0	None
+1	Few (~1 to 50 injuries)
+2	Some(~51 to 100 injuries)
+3	Many (~101 to 1000 injuries)
+4	Very many (over 1000 injuries)
+
+Total Damage ($Mil): The value in the Damage column should be multiplied by 1,000,000 to obtain the actual dollar amount.
+When a dollar amount for damage was found in the literature, it was listed in the Damage column in millions of U.S. dollars. The dollar value listed is the value at the time of the event. To convert the damage to current dollar values, please use the Consumer Price Index Calculator. Monetary conversion tables for the time of the event were used to convert foreign currency to U.S. dollars.
+
+Total Damage Description: Valid values: 0 to 4.
+For those events not offering a monetary evaluation of damage, the following five-level scale was used to classify damage (1990 dollars) and was listed in the Damage column. If the actual dollar amount of damage was listed, a descriptor was also added for search purposes.
+0	NONE
+1	LIMITED (roughly corresponding to less than $1 million)
+2	MODERATE (~$1 to $5 million)
+3	SEVERE (~$5 to $25 million)
+4	EXTREME (~$25 million or more)
+When possible, a rough estimate was made of the dollar amount of damage based upon the description provided, in order to choose the damage category. In many cases, only a single descriptive term was available. These terms were converted to the damage categories based upon the authors apparent use of the term elsewhere. In the absence of other information, LIMITED is considered synonymous with slight, minor, and light, SEVERE as synonymous with major, extensive, and heavy, and EXTREME as synonymous with catastrophic.
+Note: The descriptive terms relate approximately to current dollar values.
+
+Total Houses Destroyed: Whenever possible, numbers of houses destroyed are listed.
+
+Total Houses Destroyed Description: Valid values: 0 to 4.
+For those events not offering an exact number of houses damaged, the following four-level scale was used to classify the damage and was listed in the Houses Destroyed column. If the actual number of houses destroyed was listed, a descriptor was also added for search purposes.
+0	None
+1	Few (~1 to 50 houses)
+2	Some (~51 to 100 houses)
+3	Many (101 to 1000 houses)
+4	Very Many (~over 1000 houses)
+
+
+
+[1] https://volcano.si.edu/
+
+[2] Simkin T, and Siebert L (1994).Volcanoes of the World2nd edition. Geoscience Press in association with the Smithsonian Institution Global Volcanism Program, Tucson AZ, 368 p.

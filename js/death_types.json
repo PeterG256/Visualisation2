@@ -1,0 +1,112 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "../Data/agents_VEI_deaths_2.csv"
+  },
+  "config": {
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      }
+    },
+    "concat": {
+      "columns": 2
+    }
+  },
+  "hconcat":[
+    {
+      "width" : 600,
+      "height": 300,
+      "title": "Death agents for eruptions",
+      "mark": {
+        "type": "circle",
+        "stroke": "black",
+        "strokeWidth": 0.2,
+        "strokeOpacity": 0.4
+      },
+      "transform": [
+        {
+          "joinaggregate": [{
+            "op": "sum",
+            "field": "Death_tot",
+            "as": "Death_sum"
+          }],
+          "groupby": ["Agent"]
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "Death_tot",
+          "type": "quantitative",
+          "axis": {
+            "title": "Total Deaths"
+          }
+        },
+        "y": {
+          "field": "Agent",
+          "type": "nominal",
+          "title": "Agent of death",
+          "sort": {"field": "Death_sum", "order":"descending"}
+        },
+        "color": {
+          "field": "VEI",
+          "type": "quantitative",
+          "title": "VEI",
+          "bin":true,
+          "scale":{"scheme": "reds"}            
+        },
+        "tooltip": [
+          {"field": "VEI", "type": "ordinal"},
+          {"field": "Death_tot", "type": "quantitative", "format": ",", "title": "Total deaths"}
+        ]
+      }
+    },
+    {
+      "width" : 300,
+      "height": 300,
+      "layer": [
+        {
+          "mark": {
+            "type": "bar"
+          },
+          "transform": [
+            {
+              "aggregate": [{
+              "op": "sum",
+              "field": "Death_tot",
+              "as": "Death_sum"
+              }],
+              "groupby": ["Agent"]
+            }
+          ],
+          "encoding": {
+            "x": {
+              "field": "Death_sum",
+              "type": "quantitative",
+              "axis": {
+                "title": "Total Deaths"
+              },
+              "aggregate":"sum"
+            },
+            "y": {
+              "field": "Agent",
+              "type": "nominal",
+              "title": "Totals",
+              "axis":{
+                "labels": false
+              },
+              "sort": {"field": "Death_sum", "order": "descending"}
+            },
+            "color": {
+              "value": "grey"
+            },
+            "tooltip": [
+              {"field": "Agent", "type": "nominal"},
+              {"field": "Death_sum", "type": "quantitative", "format": ",", "title": "Total deaths"}
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

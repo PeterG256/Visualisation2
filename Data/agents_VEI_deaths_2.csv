@@ -1,0 +1,85 @@
+Agent,VEI,Death_tot
+Avalanche,1,28479.0
+Avalanche,2,35378.0
+Avalanche,3,76022.0
+Avalanche,4,89293.0
+Avalanche,5,32980.0
+Avalanche,6,44139.0
+Avalanche,7,26856.0
+Electrical (Lightning),1,4112.0
+Electrical (Lightning),2,18558.0
+Electrical (Lightning),3,54618.0
+Electrical (Lightning),4,64648.0
+Electrical (Lightning),5,7466.0
+Electrical (Lightning),6,19702.0
+Electrical (Lightning),7,17419.0
+Floods,1,3344.0
+Floods,2,17775.0
+Floods,3,53842.0
+Floods,4,63446.0
+Floods,5,7921.0
+Floods,6,18933.0
+Floods,7,16650.0
+Gas,1,9184.0
+Gas,2,23777.0
+Gas,3,58035.0
+Gas,4,70282.0
+Gas,5,14020.0
+Gas,6,19926.0
+Gas,7,22643.0
+"Indirect deaths (disease, starvation)",1,42288.0
+"Indirect deaths (disease, starvation)",2,56921.0
+"Indirect deaths (disease, starvation)",3,92128.0
+"Indirect deaths (disease, starvation)",4,92968.0
+"Indirect deaths (disease, starvation)",5,46972.0
+"Indirect deaths (disease, starvation)",6,45288.0
+"Indirect deaths (disease, starvation)",7,40911.0
+Lava flows,1,4056.0
+Lava flows,2,17480.0
+Lava flows,3,54176.0
+Lava flows,4,65018.0
+Lava flows,5,8829.0
+Lava flows,6,19730.0
+Lava flows,7,17448.0
+Mudflows,1,45199.0
+Mudflows,2,58845.0
+Mudflows,3,68423.0
+Mudflows,4,96503.0
+Mudflows,5,46046.0
+Mudflows,6,61105.0
+Mudflows,7,58822.0
+Secondary (post-eruption) mudflows,1,3417.0
+Secondary (post-eruption) mudflows,2,18888.0
+Secondary (post-eruption) mudflows,3,54739.0
+Secondary (post-eruption) mudflows,4,65576.0
+Secondary (post-eruption) mudflows,5,9380.0
+Secondary (post-eruption) mudflows,6,20016.0
+Secondary (post-eruption) mudflows,7,18000.0
+"Pyroclastic flows, surges, & direct blasts",1,99898.0
+"Pyroclastic flows, surges, & direct blasts",2,113748.0
+"Pyroclastic flows, surges, & direct blasts",3,129506.0
+"Pyroclastic flows, surges, & direct blasts",4,118697.0
+"Pyroclastic flows, surges, & direct blasts",5,99158.0
+"Pyroclastic flows, surges, & direct blasts",6,102641.0
+"Pyroclastic flows, surges, & direct blasts",7,97948.0
+"Seismic, or volcanic earthquake",1,5093.0
+"Seismic, or volcanic earthquake",2,19474.0
+"Seismic, or volcanic earthquake",3,55436.0
+"Seismic, or volcanic earthquake",4,65068.0
+"Seismic, or volcanic earthquake",5,9312.0
+"Seismic, or volcanic earthquake",6,20683.0
+"Seismic, or volcanic earthquake",7,18401.0
+"Tephra (ash, bombs, steam blasts)",1,14041.0
+"Tephra (ash, bombs, steam blasts)",2,26244.0
+"Tephra (ash, bombs, steam blasts)",3,63266.0
+"Tephra (ash, bombs, steam blasts)",4,74403.0
+"Tephra (ash, bombs, steam blasts)",5,16868.0
+"Tephra (ash, bombs, steam blasts)",6,24170.0
+"Tephra (ash, bombs, steam blasts)",7,27396.0
+Waves or tsunami,1,45071.0
+Waves or tsunami,2,48411.0
+Waves or tsunami,3,94357.0
+Waves or tsunami,4,104621.0
+Waves or tsunami,5,48734.0
+Waves or tsunami,6,48021.0
+Waves or tsunami,7,43061.0

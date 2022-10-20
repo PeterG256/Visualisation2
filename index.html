@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+  
+  
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+  
+  <!-- JSON vega-lite charts -->
+  <script type="text/javascript">
+      // var spec1 = "js/volcano_world1.json";
+      // vegaEmbed('#volcano_world1', spec1).then(function(result) {
+      //   // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      // }).catch(console.error);
+
+      var spec1 = "js/volcano2.json";
+      vegaEmbed('#volcano2', spec1).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+
+      var spec2 = "js/death_types.json";
+      vegaEmbed('#death_types', spec2).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+
+      var spec3 = "js/deadliest.json";
+      vegaEmbed('#deadliest', spec3).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);    
+  </script>
+
+</head>
+<body>
+  <div id="sub_background">
+    <div id="heading_background">
+      <h1>Deadly Volcano Eruptions</h1>
+    </div>
+    <div id="content_background">
+      <div class="ch_con">
+        <p>
+          A volcanic eruption is a natural disaster where materials such as rocks and particles, called tephra, are expelled out from a volcano.
+          An eruption by itself is enough to kill directly, though after a powerful enough eruption, the surrounding air and ground may become toxic, causing crops to fail and breathing to be difficult among other things.
+          <br>          
+          The <b>V</b>olcanic <b>E</b>xplosivity <b>I</b>ndex (<b>VEI</b>) is measure of how potent an eruption is.
+          It is a logarithmic scale from 0 (where no tephra are released from the volcano) to 8 (where 1,000,000,000,000 m³ of tephra are released).
+        </p>
+        <h2>
+          Where and have the most fatal volcanic eruptions been, and what kind of volcano erupted?
+        </h2>
+        <div id="volcano2" class="chart"></div>
+        <p>
+          Evidentally, the areas with the most fatal volcanic activity are Indonesia, Phillipines, Japan, and Central America.
+          There have been eruptions with a VEI of 8, but none since humanity started recording history.
+          <!-- <br> -->
+          Most volcanic eruptions are from <b>stratovolcanos</b>, which are the quintessential example of volcanoes (a single conical mountain covered by many layers of tephra with an opening at the top).
+          <!-- <br> -->
+          The tallest volcano to have caused a death is <b>Cotopaxi</b> at 5,911 m.
+          For comparison, the tallest mountain in the world Mount Everest is 8,848 m tall.
+        </p>
+      </div>
+
+      <div class="ch_con">
+        <h2>
+          What are the eruptions with the most deaths?
+        </h2>
+        <div id="deadliest" class="chart"></div>
+        <p id="bar_chart_note" class="note">
+          The deadliest eruption was <b>Tambora</b> in Indonesia with a VEI of 7.
+          It was so powerful that its tephra spread wide enough to lower the temperature globally, causing 1816 to be what is known as <i>The Year Without Summer</i>.
+          There have been no other documented VEI 7 eruptions.
+        </p>
+      </div>
+
+      <div class="ch_con">
+        <h2>
+          By which agents do eruptions cause the most deaths?
+        </h2>
+        <div id="death_types" class="chart"></div>
+        <p id="bar_chart_note" class="note">
+          Of all ways to die from a volcanic eruption, <strong>pyroclastic flows</strong> are the biggest killer.
+          They are a mix of volcanic matter travelling close to the ground that can reach temperatures of 1000°C and speeds of 100 km/h. 
+        </p>
+      </div>
+    </div>
+    <div>
+      <div id="source_left">
+        <p id="source_txt">
+          Source: 
+          <i>
+            National Geophysical Data Center / World Data Service (NGDC/WDS): NCEI/WDS Global Significant Volcanic Eruptions Database. NOAA National Centers for Environmental Information. doi:10.7289/V5JW8BSH
+          </i>
+        </p>
+      </div>
+      <div id="source_right">
+        <p id="source_txt">
+          Peter Gill
+        </p>
+      </div>
+    </div> 
+  </div> 
+</body>
+</html>
